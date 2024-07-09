@@ -138,8 +138,8 @@ border: 2px solid ;
 margin: 0 auto;
  
 }
-video{
+.video{
     width:  100%;
-    margin: 10px auto;
- 
-}
+    margin: 0px auto;
+    height: 100%;
+ }
