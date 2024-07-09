@@ -6,6 +6,18 @@
     max-width: 1140px;
     font-family: Azeret Mono;
 }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 50px;
+    margin: 30px auto;
+ }
+  .resume{
+    padding: 17px 24px 17px 24px;
+    border-radius: 8px;
+  }
 .azeret-sans-mono{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -24,7 +36,7 @@ text-align: center;
 
 }
 .banner-container{
-    border: 2px solid rebeccapurple;
+    
 }
 .title{
     color: rgb(13, 19, 33);
@@ -66,7 +78,7 @@ height: 115px;
 margin: 0 auto;
 margin-bottom: 50px;
 }
-.why-web-title{
+.why-web-title, .name{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 32px;
@@ -214,11 +226,41 @@ background-color: rgba(255, 223, 0, 0.05)
 .support{
     max-width: 1140px;
     height: 313px;
-    margin: auto;
+    margin: 50px auto;
     border: 2px solid red;
     background-image: url("../assets/handshake.jpg");
     background-size: cover;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    background-position: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(0,0,0, 0.5);
+background-blend-mode: overlay;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 6px;
+letter-spacing: 0%;
+text-align: center;
+}
+.support-des{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.feedback{
+    padding: 10px 80px;
+}
+.submit{
+    padding: 10px 20px;
 }
