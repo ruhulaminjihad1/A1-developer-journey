@@ -4,6 +4,7 @@
  
 .body{
     max-width: 1140px;
+    font-family: Azeret Mono;
 }
 .azeret-sans-mono{
   font-family: "Azeret Mono", monospace;
@@ -63,6 +64,7 @@ line-height: 23px;
     width: 952px;
 height: 115px;
 margin: 0 auto;
+margin-bottom: 50px;
 }
 .why-web-title{
     color: rgb(13, 19, 33);
@@ -85,22 +87,25 @@ line-height: 26px;
     border: 2px solid red;
 }
 .coding-container{
-    border: 2px solid rebeccapurple;
+   
 }
 .coding1{
     font-family: Azeret Mono;
     display: flex;
     width: 946px;
 height: 336px;
-justify-content: space-between;
+justify-content: space-evenly;
 margin: auto;
-padding: 50px 20px;
+ 
 color: rgba(13, 19, 33, 0.7);
  
 }
 .coding-content{
-  
+  width: 480px;
    gap: 20px;
+}
+.coding-img{
+    margin-top: 20px;
 }
 .button2{
     padding:12px 20px 12px 20px;
@@ -111,9 +116,9 @@ color: rgba(13, 19, 33, 0.7);
 justify-content: center;
 align-items: center;
 text-align: center;
-max-width: ;
+ 
 }
-.inspiration-title{
+.inspiration-title, .target-title{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 32px;
@@ -122,7 +127,7 @@ line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
 }
-.inspiration-des{
+.inspiration-des, .target-des{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -136,10 +141,84 @@ text-align: center;
 height: 550px;
 border: 2px solid ;
 margin: 0 auto;
+margin-bottom: 150px;
  
 }
 .video{
     width:  100%;
     margin: 0px auto;
     height: 100%;
+   margin-bottom: 150px;
  }
+
+ /* target section  */
+ .target{
+    max-width: 1140px;
+    border: 2px solid rebeccapurple;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+ .target-content{
+    text-align: center;
+ }
+ 
+ .skill-container{
+    display: flex;
+    gap: 40px;
+ }
+ .skill-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .skills1{
+    width: 364px;
+    font-family: Azeret Mono;
+border-radius: 16px;
+padding: 40px;
+background: rgba(255, 76, 30, 0.05);
+
+ }
+ .skill-des{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+ .skills2{
+    width: 364px;
+ 
+border-radius: 16px;
+padding: 40px;
+background: rgba(0, 76, 232, 0.05);
+
+ }
+ .skills3{
+    width: 364px;
+ 
+border-radius: 16px;
+padding: 40px;
+background-color: rgba(255, 223, 0, 0.05)
+}
+
+/* need support  */
+.support{
+    max-width: 1140px;
+    height: 313px;
+    margin: auto;
+    border: 2px solid red;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
