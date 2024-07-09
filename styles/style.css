@@ -1,0 +1,145 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+ 
+.body{
+    max-width: 1140px;
+}
+.azeret-sans-mono{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+    
+height: 652px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.banner-container{
+    border: 2px solid rebeccapurple;
+}
+.title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+
+}
+.description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+.button{
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+ 
+}
+
+/* why web development section  */
+.why-web{
+    text-align: center;
+    font-family: Azeret Mono;
+    width: 952px;
+height: 115px;
+margin: 0 auto;
+}
+.why-web-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+ 
+}
+.why-web-des{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 19px;
+font-weight: 400;
+line-height: 26px;
+ 
+}
+.why-web-container{
+    padding: 80px 100px;
+    border: 2px solid red;
+}
+.coding-container{
+    border: 2px solid rebeccapurple;
+}
+.coding1{
+    font-family: Azeret Mono;
+    display: flex;
+    width: 946px;
+height: 336px;
+justify-content: space-between;
+margin: auto;
+padding: 50px 20px;
+color: rgba(13, 19, 33, 0.7);
+ 
+}
+.coding-content{
+  
+   gap: 20px;
+}
+.button2{
+    padding:12px 20px 12px 20px;
+    font-family: Azeret Mono;
+}
+/* .inspiration section */
+.inspiration-content{
+justify-content: center;
+align-items: center;
+text-align: center;
+max-width: ;
+}
+.inspiration-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.inspiration-des{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.inspiration-video{
+    width: 1076px;
+height: 550px;
+border: 2px solid ;
+margin: 0 auto;
+ 
+}
+video{
+    width:  100%;
+    margin: 10px auto;
+ 
+}
