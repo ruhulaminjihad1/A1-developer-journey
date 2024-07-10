@@ -96,7 +96,7 @@ line-height: 26px;
 }
 .why-web-container{
     padding: 80px 100px;
-    border: 2px solid red;
+  
 }
 .coding-container{
    
@@ -151,7 +151,7 @@ text-align: center;
 .inspiration-video{
     width: 1076px;
 height: 550px;
-border: 2px solid ;
+
 margin: 0 auto;
 margin-bottom: 150px;
  
@@ -160,13 +160,14 @@ margin-bottom: 150px;
     width:  100%;
     margin: 0px auto;
     height: 100%;
-   margin-bottom: 150px;
+   margin: 50px 0px;
+   border-radius: 8px;
  }
 
  /* target section  */
  .target{
     max-width: 1140px;
-    border: 2px solid rebeccapurple;
+    
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -227,7 +228,7 @@ background-color: rgba(255, 223, 0, 0.05)
     max-width: 1140px;
     height: 313px;
     margin: 50px auto;
-    border: 2px solid red;
+     
     background-image: url("../assets/handshake.jpg");
     background-size: cover;
     background-position: center;
@@ -259,8 +260,16 @@ opacity: 0.7;
 
 }
 .feedback{
-    padding: 10px 80px;
+    padding: 15px 80px 15px 15px;
 }
 .submit{
-    padding: 10px 20px;
+    padding: 15px 20px;
+}
+
+footer{
+    font-family: Azeret Mono;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto;
 }
