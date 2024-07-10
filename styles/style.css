@@ -148,6 +148,7 @@ letter-spacing: 0%;
 text-align: center;
 }
 .inspiration-des, .target-des{
+   
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -318,9 +319,13 @@ opacity: 0.7;
 }
 .feedback{
     padding: 15px 80px 15px 15px;
+    border-radius: 8px;
+    font-family: Azeret Mono;
 }
 .submit{
     padding: 15px 20px;
+    border-radius: 8px;
+    font-family: Azeret Mono;
 }
 
 footer{
